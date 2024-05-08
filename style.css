@@ -1,0 +1,22 @@
+body, html {
+    margin: 0;/*margenes del cuerpo*/
+    padding: 0;/*parte de arriba(espacio)*/
+    height: 90%;/*largo del pain*/
+    width: 120%;/*ancho del pain*/
+    overflow: hidden;/*oculta lo que sale de la caja*/
+
+}
+
+#myCanvas {/*ayuda a acentrar todo el pain en la pantalla de la pagina*/
+    display: block;
+    margin: 0 auto;
+}
+
+/*ajusta deacuerdo a la pantalla, es decir lo adapta*/
+@media screen and (max-width: 768px) {
+    #myCanvas {
+        width: 100vw;
+        height: 100vh;
+    }
+  
+}
